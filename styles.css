@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: 'ABeeZee', sans-serif;
+  background-image: linear-gradient(to right top, #34475e, #416685, #4b87ac, #50aad4,           #52cffb);
+  color: white;
+  height:110vh;
+}
+
+ /* =================
+    Typography
+    ================= */
+h1 {
+  margin: 0;
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #34475e;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+   header {
+        text-align: center;
+    }
+}
+
+header {
+  background-color: #34475e;
+  color: white;
+  padding: 0.5em 0;
+  padding-top:0.5em;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+ }
+
+/* navigation */
+
+ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+ }
+
+li {
+   margin-left: 2em;
+ }
+
+ nav a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+ }
+
+ nav a:hover,
+ nav a:focus {
+   color: #52cffb;
+ }
+
+
+.current-page:hover {
+  color: white;
+}
+
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: .5em 0;
+    }
+}
+
+/* Calculator styling */
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.title {
+	font-size: 2.5rem;
+	margin-top: 0.25em;
+}
+
+.subtitle {
+  margin: 0;
+}
+.button{
+  display:inline-block;
+  text-decoration:none;
+  padding: 0.3em 1.2em;
+  margin 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  background-color:#4eb5f1;
+  color: white;
+  font-weight:300;
+  transition: all 0.2s;
+}
+
+.button:hover{
+ background-color:#4095c6;
+}
+
+.container-calc {
+    max-width: 400px;
+    text-align: center;
+    margin: 5rem auto;
+    background-color: white;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 2em;
+    color: #34475e;
+    margin-top: 10rem;
+}
+
+.postcode-input {
+    background: white;
+    border: 2px solid grey;
+    border-radius: 3px;
+    height: 1.5rem;
+    padding: 0 15px 0 50px;
+    margin-bottom: 1em;
+}
+
+.care-button {
+    color: #fff;
+    padding: 0em 0.5em;
+    margin: 0em auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #34475e;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+
+.postcode-input-label {
+  display: block;
+}
+
+.submit-button {
+    color: #fff;
+    padding: 1em 1.5em;
+    margin: 1.5em auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #34475e;
+    display: block;
+}
+
+.calc-sub-container-title {
+  padding: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+#calc-title {
+  font-size: 2.5rem;
+}
+
+#calc-sub-title {
+  font-size: 1rem;
+}
+
+.calc-sub-container-questions {
+  background-color: #d8dee1;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.care-button-li {
+  margin:0 1em;
+  justify-content: space-between;
+}
+
+.care-button-list {
+  display: flex;
+}
+
+@media (max-width: 675px) {
+    .care-button-list {
+        flex-direction: column;
+    }
+
+    .care-button-li {
+        margin: .25em 0;
+    }
+    .container-calc {
+      margin-top: 20rem;
+    }
+}
+
+#find-out-more {
+  color: #34475e;
+}
+
+.active {
+  color: #34475e;
+  background-color:#52cffb;
+  box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+#carezee-insights-logo {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.carezee-info {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
