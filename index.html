@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>CareZee Care Calculator</title>
+</head>
+  <body>
+    <header>
+      <div class="container container-nav">
+        <div class="site-title">
+          <h1>CareZee Cost of Care Calculator</h1>
+          <p class="subtitle">A smooth move into the best care</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="https://www.carezee.co.uk/home">Home</a></li>
+          <li><a href="https://www.carezee.co.uk/home">Help me find care</a></li>
+          <li><a href="https://www.carezee.co.uk/howcarezeeworks">About CareZee</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container-calc">
+    <div class="calc-sub-container-title">
+      <h1 id="calc-title">Cost of Care in England</h1>
+      <h3 id="calc-sub-title">Use the CareZee cost of care calculator to find out the average cost of residential or nursing care in your area.</h3>
+    </div>
+    <div class="calc-sub-container-questions">
+      <h2 class="question">What type of care are you looking for?</h2>
+      <a style="text-decoration:none" href="https://www.carezee.co.uk/supportandinsights/residential-vs-nursing-care" target="_blank">
+        <p id="find-out-more">Find out more</p>
+      </a>
+        <ul class="care-button-list">
+          <li class="care-button-li"><button class="care-button active" onclick="#">Residential care home</button>
+          <li class="care-button-li"><button class="care-button" onclick="#">Nursing home</button>
+        </ul>
+    </div>
+    <div class="calc-sub-container-questions">
+      <h2 class="question">Where are you looking for care?</h2>
+        <label class="postcode-input-label" for="postcode-input">Postcode</label>
+        <input class="postcode-input" type="text" id="postcode" name="postcode" placeholder="e.g. CW5 8GT">
+    </div>
+    <div class="submit-div">
+      <input class="submit-button"type="submit" value="Find out">
+    </div>
+    <div class="logo-container">
+      <a href="https://www.carezee.co.uk/">
+        <img id="carezee-insights-logo" src="https://www.carezee.co.uk/images/740d6ec0a421b0b5f9d297c4981797ff451c6144.JPG" alt="CareZee insights logo" target="_blank">
+      </a>
+    </div>
+    <div class="carezee-info">
+      <a href="https://www.carezee.co.uk/">
+        <p>CareZee makes it even easier for care seekers to find the best care quickly. Search our accredited and independently certified list of UK care homes.</p>
+      </a>
+    </div>
+  </div>
+  </body>
+</html>
